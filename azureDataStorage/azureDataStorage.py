@@ -121,7 +121,6 @@ def storeDataToAzure(dataFrame):
 def initialStep():
     global webScraper, table_service 
     priceForecastDf = webScraper.getEnergyPriceForecast()
-    table_service.delete_table(TABLE_NAME)
     table_service.create_table(TABLE_NAME)
     storeDataToAzure(priceForecastDf)
             
