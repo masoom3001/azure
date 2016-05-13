@@ -17,8 +17,8 @@ webScraper = nordPool.NordPool()
 POWER_PRICE_FORECAST_DEVICE_NAME = "Forecast on price of power"
 PREDICTION_DATA = "Prediction data"
 TIME_DURATION_FOR_SLEEP = 3600
-ACCOUNT_NAME = "storageaccountmasoom"
-ACCOUNT_KEY = "4Zhjd52+QEuhM3u9IZbAOLX2sN0E3Jz0lYCFnc4Xarw2af13Kd8m8ep37W9EMTlj8mvDHXEd0hX2KLgwW+Z3Vg=="
+ACCOUNT_NAME = "####"
+ACCOUNT_KEY = "####"
 TABLE_NAME = "priceofpower"
 PARTITION_KEY = "predictedPrice"
 table_service = TableService(account_name=ACCOUNT_NAME, account_key=ACCOUNT_KEY)
